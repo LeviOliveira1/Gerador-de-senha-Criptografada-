@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de senhas - JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="Img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Img/favicon-16x16.png">
+    <link rel="manifest" href="Img/site.webmanifest">
+</head>
+<body>
+    <main>
+       
+        <h1>Gerador de Senhas🔐</h1>
+
+        <input id="inputPasswordId" type="text" />
+
+        <div>
+            <input id="inputLengthId" type="range" min="6" max="30"/>
+            <label for="inputLengthId"></label>
+        </div>
+        <div>
+            <input id="chkLowerId" type="checkbox" />
+            <label for="chkLowerId">Letras minúsculas</label>
+        </div>
+        <div>
+            <input id="chkUpperId" type="checkbox" />
+            <label for="chkUpperId">Letras maiúsculas</label>
+        </div>
+        <div>
+            <input id="chkNumberId" type="checkbox" />
+            <label for="chkNumberId">Números</label>
+        </div>
+        <div>
+            <input id="chkSymbolsId" type="checkbox" />
+            <label for="chkSymbolsId">Símbolos</label>
+        </div>
+
+        <button id="btnGerar">Gerar</button>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
